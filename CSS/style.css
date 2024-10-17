@@ -16,9 +16,10 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 300px;
+    height: 650px;
     margin: 0 auto;
-    justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .img{
@@ -28,7 +29,7 @@ img {
 
 .item {
     width: 300px;
-    height: 350px;
+    height: 600px;
     display: flex;
     flex-flow: column;
     font-size: 28px;
@@ -38,6 +39,7 @@ img {
     background-color: #492259;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 10px;
     align-items: center;
     border-radius: 10px;
     border: 3px dashed #8ED91E;
@@ -53,10 +55,16 @@ button {
     transition: background-color 0.3s;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
 
-.botton:hover {
-    background-color: #81BF24;
+.button:hover {
+    background-color: #00B367;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
 }
 
 #respuesta {
@@ -67,12 +75,68 @@ button {
     background-color: #B273BA;
     border-radius: 10px;
     text-align: center;
+    
 }
 
 #pregunta {
    
 }
 
-#btPreguntar {
-    padding-top: 10px;
+.principal {
+    
+    width: 500px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.empezar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #492259;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    border: 5px dashed #8ED91E;
+    height: 650px;
+}
+
+.reglas {
+    background-color: #A558BD;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: #E1D7ED;
+    width: 475px;
+    border: 5px dashed #5B285A;
+    padding-left: 10px;
+}
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
