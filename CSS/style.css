@@ -1,0 +1,78 @@
+body {
+    background-color: #DAB5EF;
+    max-width: 1200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    height: 500px;
+    weight: 500px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.img{
+    
+    margin-top: 20px;
+}
+
+.item {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #492259;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px dashed #8ED91E;
+}
+
+button {
+    background-color: #8ED91E;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botton:hover {
+    background-color: #81BF24;
+}
+
+#respuesta {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 150px;
+    background-color: #B273BA;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#pregunta {
+   
+}
+
+#btPreguntar {
+    padding-top: 10px;
+}
