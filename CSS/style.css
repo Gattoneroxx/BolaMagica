@@ -9,7 +9,7 @@ body {
 
 img {
     height: 500px;
-    weight: 500px;
+    width: 500px;
 }
 
 .container {
@@ -149,7 +149,7 @@ ul {
 
 @media only screen and (max-width: 767px) {
     body {
-        font-size 14px,
+        font-size 14px;
     }
 }
 
